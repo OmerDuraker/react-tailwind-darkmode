@@ -3,7 +3,7 @@ import Switcher from "./components/switcher";
 
 function App() {
   return (
-    <div className="flex justify-center items-center min-h-screen dark:bg-gray-900 transition duration-200">
+    <div className="min-h-screen flex flex-col items-center transition duration-200 dark:bg-gray-900">
       <Switcher />
     </div>
   );
